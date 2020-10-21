@@ -6,3 +6,6 @@ var vapIDkeys = {
 }
 
 push.setVapidDetails('mailto:absi87@hotmail.com', vapIDkeys.publicKey, vapIDkeys.privateKey);
+
+let sub;
+push.sendNotification(sub, 'Test message');
